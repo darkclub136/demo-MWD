@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import "./globals.css";
+import { ASSETS } from "@/components/sites/elaro-framer-website-d569c65d/shared/assets";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces-var",
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
   description:
     "Khởi & Mây sắp về chung một nhà! Trân trọng mời bạn đến chung vui vào ngày 20 & 21 tháng 10 năm 2026.",
   icons: {
-    icon: "/sites/elaro-framer-website-d569c65d/root-8a5edab2/seo/favicon.png",
+    icon: ASSETS.favicon,
   },
 };
 

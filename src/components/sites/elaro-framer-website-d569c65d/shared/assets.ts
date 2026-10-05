@@ -1,4 +1,4 @@
-const BASE = "/sites/elaro-framer-website-d569c65d/root-8a5edab2";
+const BASE = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/sites/elaro-framer-website-d569c65d/root-8a5edab2`;
 
 /** Every asset downloaded from elaro.framer.website, by role. */
 export const ASSETS = {
