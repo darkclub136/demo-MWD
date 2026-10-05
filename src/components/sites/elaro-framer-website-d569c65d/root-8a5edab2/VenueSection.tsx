@@ -30,7 +30,7 @@ export function VenueSection() {
       id="venue"
       className="relative flex flex-row items-start justify-center bg-[#0F0F0F] xl:h-[766px]"
     >
-      <div className="flex w-full flex-col items-start justify-start xl:flex-row xl:gap-[60px] xl:pr-[40px]">
+      <div className="flex w-full flex-col items-start justify-start xl:w-auto xl:flex-row xl:gap-[60px]">
         <div className="relative aspect-square w-full overflow-clip bg-[#1a1a1a] md:aspect-[693/600] xl:aspect-auto xl:h-[766px] xl:w-[693px] xl:shrink-0">
           <iframe
             src={MAP_EMBED_URL}
@@ -42,7 +42,7 @@ export function VenueSection() {
           />
         </div>
 
-        <div className="flex w-full flex-col items-center justify-start gap-[60px] px-[20px] py-[60px] text-center xl:w-[580px] xl:px-0 xl:py-[120px]">
+        <div className="flex w-full flex-col items-center justify-start gap-[60px] px-[20px] py-[60px] text-center xl:w-[580px] xl:shrink-0 xl:px-0 xl:py-[120px]">
           <Reveal className="w-full">
             <div className="flex w-full flex-col items-center justify-center gap-[20px] xl:h-[202px] xl:w-[580px]">
               <p className="text-[14px] font-normal leading-[18px] text-white/70">
