@@ -42,9 +42,9 @@ export function VenueSection() {
           />
         </div>
 
-        <div className="flex w-full flex-col items-start justify-start gap-[60px] px-[20px] py-[60px] xl:w-[580px] xl:px-0 xl:py-[120px]">
+        <div className="flex w-full flex-col items-center justify-start gap-[60px] px-[20px] py-[60px] text-center xl:w-[580px] xl:px-0 xl:py-[120px]">
           <Reveal className="w-full">
-            <div className="flex w-full flex-col items-start justify-center gap-[20px] xl:h-[202px] xl:w-[580px]">
+            <div className="flex w-full flex-col items-center justify-center gap-[20px] xl:h-[202px] xl:w-[580px]">
               <p className="text-[14px] font-normal leading-[18px] text-white/70">
                 Địa điểm tổ chức
               </p>
@@ -59,11 +59,11 @@ export function VenueSection() {
           </Reveal>
 
           <Reveal delay={100} className="w-full">
-            <div className="grid w-full grid-cols-2 gap-[40px] xl:h-[154px] xl:w-[470px] xl:grid-cols-[repeat(2,200px)] xl:gap-x-[70px]">
+            <div className="mx-auto grid w-full grid-cols-2 gap-[40px] xl:h-[154px] xl:w-[470px] xl:grid-cols-[repeat(2,200px)] xl:gap-x-[70px]">
               {DETAILS.map((detail) => (
                 <div
                   key={detail.label}
-                  className="flex flex-col justify-start gap-[15px] xl:h-[57px] xl:w-[200px]"
+                  className="flex flex-col items-center justify-start gap-[15px] xl:h-[57px] xl:w-[200px]"
                 >
                   <p className="text-[14px] font-normal leading-[18px] text-white/40">
                     {detail.label}
